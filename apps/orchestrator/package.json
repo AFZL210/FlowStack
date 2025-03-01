@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "orchestrator",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.8",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
+    "typescript": "^5.8.2",
+    "@repo/typescript-config": "workspace:*"
   }
 }
